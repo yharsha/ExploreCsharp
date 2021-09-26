@@ -27,7 +27,6 @@ namespace StockAnalyzer.Windows
         {
             BeforeLoadingStockData();
 
-            /**
             //async read from web API
             using (var client = new HttpClient())
             {
@@ -41,7 +40,7 @@ namespace StockAnalyzer.Windows
 
                 Stocks.ItemsSource = data;
             }
-            **/
+           
 
             //async read from file 
             /**
